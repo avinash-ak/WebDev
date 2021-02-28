@@ -1,0 +1,24 @@
+h1 {
+  text-align: center;
+  background: #b8c1c8;
+  border-bottom: 5px solid #989ea4;
+  border-top: 5px solid #717d85;
+  border-left: 5px solid #717d85;
+  border-right: 5px solid #717d85;
+  /* align: center; */
+}
+dl {
+  position: relative;
+}
+dt {
+  background-color: #333;
+  color: greenyellow;
+  padding: 10px;
+  font-weight: bold;
+  position: sticky;
+  top: 0px;
+}
+dd {
+  padding: 10px;
+  font-weight: bold;
+}
