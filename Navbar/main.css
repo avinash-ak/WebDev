@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.nav-bar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 1em;
+  margin: 0;
+  background: rgba(42, 42, 42, 1);
+}
+.link {
+  text-decoration: none;
+  color: white;
+  font-size: 1.1rem;
+  margin: 0.5cm;
+  transition: all 500ms;
+}
+.name-input {
+  margin: 1em;
+}
+.link:hover,
+.link:focus {
+  color: #fff582;
+}
+@media (min-width: 1000px) {
+  .nav-bar {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+}
